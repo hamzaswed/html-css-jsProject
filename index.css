@@ -1,0 +1,56 @@
+/*start body*/
+body {
+  background-image: linear-gradient(to right, #26b3f6, #30e3ad);
+}
+/*end body*/
+/*start container*/
+.container {
+  background-color: black;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-left: 15px solid #30e3ad;
+  border-right: 15px solid #26b3f6;
+  border-top: 15px solid #30e3ad;
+  border-bottom: 15px solid #26b3f6;
+  border-radius: 35px;
+}
+/*end container*/
+/*start pareant*/
+.parent {
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+/*end parent*/
+/*start child*/
+.child {
+  width: 100%;
+  height: 135px;
+  text-align: center;
+  position: relative;
+}
+/*end child*/
+/*start paragraph*/
+.child p {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 90px;
+  font-family: "Archivo Narrow", sans-serif;
+  text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+  font-weight: 900;
+}
+.child p:hover {
+  color: #00ddc4;
+  text-shadow: none;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+/*end paragraph*/
